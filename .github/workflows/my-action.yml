@@ -1,0 +1,8 @@
+name: presentacion actions y proyects nogadev
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hola mundo!"
