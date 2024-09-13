@@ -6,3 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hola mundo!"
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Istalación de dependecias
+        run: npm ci
+      - name: correr eslint
+        run: npx eslint
